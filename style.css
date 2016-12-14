@@ -1,0 +1,97 @@
+body {
+	font-size: 20px;
+}
+
+/*BARRE LATERALE*/
+
+.image {
+	border-radius: 50%;
+}
+
+.webIcon {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 1.5em;
+}
+
+.address {
+	color: white;
+	font-size: 1.5em;
+}
+
+.titleLeftColumn {
+	text-transform: uppercase;
+	color: white;
+	padding-top: 1em;
+}
+
+.projectList li a{
+	color: black;
+	text-decoration: underline;
+}
+
+.barre.barre.barre.barre.barre {
+	background-color: #4682B4;
+	display: flex;
+	flex-direction: column;
+}
+
+/*FIN BARRE LATERALE*/
+
+.name.name.name {
+	font-size: 2.5em;
+}
+
+.job.job.job {
+	font-size: 1.5em;
+}
+
+.punchline {
+	padding-right: 7em;
+	padding-left: 7em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	text-align: center;
+	color: #4682B4;
+}
+
+.author, .citation {
+	font-style: italic;
+	font-size: 1.8em;
+}
+
+.titleRightColumn {
+	text-align: center;
+	padding-top: 1em;
+}
+
+#bloc1, #bloc2, #bloc3 {
+	border: solid black 2px;
+	padding: 2em;
+	margin-top: 3em;
+	margin-bottom: 3em;
+	margin-left: 6em;
+	margin-right: 3em;
+}
+
+.date {
+	font-size: 1.5em;
+}
+
+.lieu {
+	font-size: 1.2em;
+	font-weight: normal;
+}
+
+.poste, .title2 {
+	font-size: 1.7em;
+}
+
+.liste {
+	font-size: 1.2em;
+}
+
+.image, .info {
+	align-self: center;
+	margin: 1em;
+}
