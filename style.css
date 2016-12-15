@@ -118,13 +118,21 @@ body {
 	padding-top: 0.2em;
 }
 
+.content {
+	font-size: 1.4em;
+}
+
+.description, .header {
+	padding: 0.3em;
+}
+
 .detail {
 	font-size: 1.4em;
 	font-weight: normal;
 }
 
 .poste, .title2 {
-	font-size: 1.7em;
+	font-size: 1.6em;
 }
 
 .poste {
