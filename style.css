@@ -37,10 +37,36 @@ body {
 	padding-top: 1em;
 }
 
-.projectList li a{
-	color: black;
+.subtitleLeft {
+	font-size: 1.3em;
+}
+
+.subtitleLeft span {
+	color: white;
+}
+
+.interet {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.interet span {
+	padding: 0.5em;
+}
+
+.meetup a {
+	color: white;
 	text-decoration: underline;
 }
+
+.meetup a:hover {
+	background-color: black;
+}
+
+.projectList li a{
+	color: black;
+}
+
 
 .barre.barre.barre.barre.barre {
 	background-color: #4682B4;
@@ -101,6 +127,10 @@ body {
 	font-size: 1.7em;
 }
 
+.poste {
+	color: black;
+}
+
 .title2 {
 	color: #4682B4;
 }
@@ -112,4 +142,19 @@ body {
 .image, .info {
 	align-self: center;
 	margin: 1em;
+}
+
+.projectList .listing {
+	font-size: 1.5em;
+	list-style-type: none;
+	padding: 0.5em;
+	margin: 2em;
+}
+
+.projectList .columnFirst {
+	padding-left: 7em;
+}
+
+.projectList .columnOther {
+	padding-left: 3em;
 }
