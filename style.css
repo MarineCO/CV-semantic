@@ -144,13 +144,6 @@ body {
 	margin: 1em;
 }
 
-.projectList .listing {
-	font-size: 1.5em;
-	list-style-type: none;
-	padding: 0.5em;
-	margin: 2em;
-}
-
 .projectList .columnFirst {
 	padding-left: 7em;
 }
