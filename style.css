@@ -67,7 +67,6 @@ body {
 	color: black;
 }
 
-
 .barre.barre.barre.barre.barre {
 	background-color: #4682B4;
 	display: flex;
@@ -82,6 +81,10 @@ body {
 
 .job.job.job {
 	font-size: 1.5em;
+}
+
+#barMenu {
+	width: 100%;
 }
 
 .punchline {
@@ -100,6 +103,7 @@ body {
 
 .titleRightColumn {
 	text-align: center;
+	font-size: 2.2em;
 	padding-top: 1em;
 }
 
@@ -118,37 +122,38 @@ body {
 	padding-top: 0.2em;
 }
 
+.content {
+	font-size: 1.4em;
+}
+
+.description, .header {
+	padding: 0.3em;
+}
+
 .detail {
 	font-size: 1.4em;
 	font-weight: normal;
 }
 
-.poste, .title2 {
-	font-size: 1.7em;
+.title2 {
+	font-size: 1.6em;
+	color: #4682B4;
 }
 
 .poste {
 	color: black;
+	font-size: 1.8em;
+	text-align: center;
 }
 
-.title2 {
-	color: #4682B4;
-}
-
-.liste {
-	font-size: 1.2em;
+.liste li {
+	font-size: 1.5em;
+	padding: 0.2em;
 }
 
 .image, .info {
 	align-self: center;
 	margin: 1em;
-}
-
-.projectList .listing {
-	font-size: 1.5em;
-	list-style-type: none;
-	padding: 0.5em;
-	margin: 2em;
 }
 
 .projectList .columnFirst {
