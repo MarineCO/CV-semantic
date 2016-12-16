@@ -38,11 +38,12 @@ body {
 }
 
 .subtitleLeft {
-	font-size: 1.3em;
+	font-size: 1.4em;
 }
 
-.subtitleLeft span {
+.subtitleLeft span, .subtitleLeft li  {
 	color: white;
+	list-style-type: none;
 }
 
 .interet {
@@ -50,8 +51,8 @@ body {
 	justify-content: center;
 	flex-direction: column;
 }
-.interet span {
-	padding: 0.5em;
+.interet span, .subtitleLeft li {
+	padding: 0.4em;
 }
 
 .meetup a {
@@ -61,10 +62,8 @@ body {
 
 .meetup a:hover {
 	background-color: black;
-}
-
-.projectList li a{
-	color: black;
+	padding: 0.4em;
+	color: white;
 }
 
 .barre.barre.barre.barre.barre {
@@ -77,10 +76,12 @@ body {
 
 .name.name.name {
 	font-size: 2.5em;
+	text-decoration: none;
 }
 
 .job.job.job {
 	font-size: 1.5em;
+	text-decoration: none;
 }
 
 #barMenu {
@@ -126,6 +127,11 @@ body {
 	font-size: 1.4em;
 }
 
+.header {
+	font-size: 1.2em;
+	text-decoration: underline;
+}
+
 .description, .header {
 	padding: 0.3em;
 }
@@ -136,13 +142,13 @@ body {
 }
 
 .title2 {
-	font-size: 1.6em;
+	font-size: 1.8em;
 	color: #4682B4;
 }
 
 .poste {
 	color: black;
-	font-size: 1.8em;
+	font-size: 1.6em;
 	text-align: center;
 }
 
@@ -154,12 +160,4 @@ body {
 .image, .info {
 	align-self: center;
 	margin: 1em;
-}
-
-.projectList .columnFirst {
-	padding-left: 7em;
-}
-
-.projectList .columnOther {
-	padding-left: 3em;
 }
