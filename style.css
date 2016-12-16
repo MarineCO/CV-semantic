@@ -84,6 +84,10 @@ body {
 	font-size: 1.5em;
 }
 
+#barMenu {
+	width: 100%;
+}
+
 .punchline {
 	padding-right: 7em;
 	padding-left: 7em;
