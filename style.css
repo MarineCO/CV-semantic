@@ -67,7 +67,7 @@ body {
 }
 
 .barre.barre.barre.barre.barre {
-	background-color: #4682B4;
+	background-color: #a6172d;
 	display: flex;
 	flex-direction: column;
 }
@@ -94,7 +94,7 @@ body {
 	padding-top: 2em;
 	padding-bottom: 2em;
 	text-align: center;
-	color: #4682B4;
+	color: #a6172d;
 }
 
 .author, .citation {
@@ -130,10 +130,15 @@ body {
 .header {
 	font-size: 1.2em;
 	text-decoration: underline;
+	color: #a6172d;
 }
 
 .description, .header {
 	padding: 0.3em;
+}
+
+.logoJob {
+	padding-top: 3em;
 }
 
 .detail {
@@ -143,7 +148,7 @@ body {
 
 .title2 {
 	font-size: 1.8em;
-	color: #4682B4;
+	color: #a6172d;
 }
 
 .poste {
