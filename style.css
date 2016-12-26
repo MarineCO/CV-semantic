@@ -8,10 +8,16 @@ body {
 	border-radius: 50%;
 }
 
+#photo {
+	height: 30em;
+	width: 19em;
+}
+
 .webIcon {
 	display: flex;
 	justify-content: center;
-	padding-bottom: 1.5em;
+	padding: 0.5em;
+	padding-bottom: 1em;
 }
 
 .webIcon a:hover {
@@ -60,10 +66,9 @@ body {
 	text-decoration: underline;
 }
 
-.meetup a:hover {
-	background-color: black;
+.meetup a:hover, .project a:hover {
+	color: black;
 	padding: 0.4em;
-	color: white;
 }
 
 .barre.barre.barre.barre.barre {
@@ -133,6 +138,7 @@ body {
 .header {
 	font-size: 1.2em;
 	text-decoration: underline;
+	font-weight: bold;
 	color: #a6172d;
 }
 
